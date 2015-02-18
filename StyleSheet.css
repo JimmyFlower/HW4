@@ -1,0 +1,22 @@
+﻿
+
+body{background: pink;
+	font-family:"Comic Sans MS", Calibri, Courier}
+	
+h1 {
+  font-family:"Comic Sans MS", Calibri, Cooper Black;
+  font-size:4em;
+  padding-top:5px;
+  font-style:italic;
+}
+
+
+div{display:block;
+text-align: left}
+
+
+p{
+	font-size: 1.5em;
+	color: #999900;
+}
+
