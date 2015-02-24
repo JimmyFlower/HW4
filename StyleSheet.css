@@ -5,18 +5,35 @@ body{background: pink;
 	
 h1 {
   font-family:"Comic Sans MS", Calibri, Cooper Black;
-  font-size:4em;
+  font-size:32px;
   padding-top:5px;
   font-style:italic;
+    width: 295px;
+    text-align:center
+    
+  
 }
 
 
-div{display:block;
-text-align: left}
+div {
+margin:0 auto; 
+width:300px; 
+display:block;
+text-align:left;
+border:solid 2px white;}
+
+.inputs {
+  text-align:right;
+  height:22px;
+  Width:100px;
+}
 
 
 p{
 	font-size: 1.5em;
 	color: #999900;
+    height: 34px;
+    width: 291px;
+    margin-left:10px
 }
 

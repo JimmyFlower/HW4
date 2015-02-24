@@ -38,4 +38,13 @@ Partial Class _Default
         'display net pay
         lbl_netpay.Text = String.Format("{0:C}", net_pay)
     End Sub
+
+    Protected Sub bt_clear_Click(sender As Object, e As EventArgs) Handles bt_clear.Click
+        tb_hourlywage.Text = String.Empty
+        tb_hoursworked.Text = String.Empty
+        tb_pretaxdeductions.Text = String.Empty
+        tb_aftertaxdeduction.Text = String.Empty
+
+
+    End Sub
 End Class
